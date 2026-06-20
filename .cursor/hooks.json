@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "matcher": "Shell|Write|Edit",
+        "command": ".cursor/hooks/check-pre-tool-use.sh"
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": ".cursor/hooks/check-post-tool-use.sh"
+      }
+    ],
+    "sessionStart": [
+      {
+        "command": ".cursor/hooks/session-start.sh"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": ".cursor/hooks/session-end.sh"
+      }
+    ]
+  }
+}

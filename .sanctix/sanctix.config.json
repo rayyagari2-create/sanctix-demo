@@ -1,0 +1,10 @@
+{
+  "_note": "Run sanctix init to configure. This file is a placeholder.",
+  "version": "0.1.0",
+  "runtime": "not_initialized",
+  "auditUrl": "",
+  "hosted": false,
+  "installedAt": "",
+  "managedFiles": [],
+  "managedEnvKeys": []
+}

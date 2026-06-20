@@ -1,0 +1,15 @@
+---
+alwaysApply: true
+---
+# Sanctix Governance
+
+This repository is governed by Sanctix.
+Every session is audited. Every tool call is captured.
+
+Run sanctix status to check governance health.
+Run sanctix start "task description" before beginning work.
+Run sanctix stop when the task is complete.
+
+Do not bypass governance checks.
+Do not delete files in .sanctix/.
+Do not modify .cursor/hooks/ manually.

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.sanctix/session.env
+node_modules/
+*.log
